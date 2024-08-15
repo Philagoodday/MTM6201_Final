@@ -1,0 +1,107 @@
+:root {
+    --primary-color: #ff6f61;
+    --secondary-color: #333;
+    --tertiary-color: #F5EAE0;
+    --font-archivo: 'Archivo', sans-serif;
+    --font-hepta-slab-bold: 'Hepta Slab', serif;
+  } 
+
+.iconpath{
+    stroke-width: 2;
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    animation: stroke 5s ease-in-out infinite;;
+}
+@keyframes stroke {
+    0% {
+        stroke-dashoffset: 0;
+      }
+      50% {
+        stroke-dashoffset: 50;
+      }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.custom-size{
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footerbackground-image {
+    background-image: url("../images/montain.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: max-content; /* Adjust as needed */
+    position: relative;
+    color: white;
+}
+/* .overlay {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
+
+
+.footercontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #37373764;
+    margin-top: 0.7em;
+}
+
+.contactlist ul li, .aboutlist ul li{
+    list-style-type: none;
+}
+
+.contactlist ul a, .aboutlist ul a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #fffeef;
+}
+
+.contactlist ul a:nth-child(4), .aboutlist ul a:nth-child(3){
+
+    padding: 0.2em;
+    margin: 0.7em;
+    font-size: 1.1em;
+    color: #64b7e1;
+}
+.contactlist ul a:nth-child(4):hover, .aboutlist ul a:nth-child(3):hover{
+
+    padding: 0.2em;
+    margin: 0.7em;
+    font-size: 1.2em;
+    color: #d064e1;
+    transition: all 0.7s;
+}
+
+@media screen and (min-width: 990px) {
+    h2{
+        display: none;
+    }
+
+    .footercontent{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+}

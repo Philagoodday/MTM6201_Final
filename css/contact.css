@@ -1,0 +1,171 @@
+:root {
+    --primary-color: #ff6f61;
+    --secondary-color: #333;
+    --tertiary-color: #F5EAE0;
+    --font-archivo: 'Archivo', sans-serif;
+    --font-hepta-slab-bold: 'Hepta Slab', serif;
+  } 
+
+body{
+    background-color: #fffeef;
+}
+
+.iconpath{
+    stroke-width: 2;
+    stroke-dasharray: 50;
+    stroke-dashoffset: 50;
+    animation: stroke 5s ease-in-out infinite;;
+}
+@keyframes stroke {
+    0% {
+        stroke-dashoffset: 0;
+      }
+      50% {
+        stroke-dashoffset: 50;
+      }
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.pic{
+    background-image: url("../images/train.jpeg");
+    width: 95%;
+    background-size: cover;
+    background-position: center;
+    height: max-content; /* Adjust as needed */
+    position: relative;
+    color: white;
+    font-size: 2em;
+    margin: auto ;
+    margin-bottom: 1em;
+    text-align: center;
+    padding: 1.2em 0;
+    border-radius: 20px;
+}
+
+
+.curve{
+    margin-top: -45px;
+}
+
+
+
+.pic p{
+    height: 100px;
+    padding-top: 25px;
+    padding-bottom: -0px;
+}
+
+.pic p {
+    font-size: 36px;
+    color: #6e6e6e;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+    animation: shadow-move 5s infinite alternate;
+    background-color: #3333333d;
+}
+
+@keyframes shadow-move {
+    0% {
+        text-shadow: 3px 3px 4px rgba(5, 119, 41, 0.774);
+        color: #d1d1d1;
+    }
+    100% {
+        text-shadow: 5px 6px 9px rgba(0, 0, 0, 0.5);
+        color: #fffeef;
+    }
+}
+
+
+.form1{
+    width: 95%;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+.btn-center{
+    display: inline-block; 
+    margin: 0 auto;
+}
+
+.content img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.icon svg{
+    width: 30px;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.7em;
+}
+
+.footerbackground-image {
+    background-image: url("../images/montain.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: max-content; /* Adjust as needed */
+    position: relative;
+    color: white;
+}
+/* .overlay {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} */
+
+
+.footercontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #37373764;
+    margin-top: 0.7em;
+}
+
+.contactlist ul li, .aboutlist ul li{
+    list-style-type: none;
+}
+
+.contactlist ul a, .aboutlist ul a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #fffeef;
+}
+
+.contactlist ul a:nth-child(4), .aboutlist ul a:nth-child(3){
+
+    padding: 0.2em;
+    margin: 0.7em;
+    font-size: 1.1em;
+    color: #64b7e1;
+}
+.contactlist ul a:nth-child(4):hover, .aboutlist ul a:nth-child(3):hover{
+
+    padding: 0.2em;
+    margin: 0.7em;
+    font-size: 1.2em;
+    color: #d064e1;
+    transition: all 0.7s;
+}
+
+@media screen and (min-width: 990px) {
+    h2{
+        display: none;
+    }
+
+    .footercontent{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
+}

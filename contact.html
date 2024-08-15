@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="https://schema.org/WebPage">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MTM6201_Final Chuhong_Feng</title>
-
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.21.9/dist/css/uikit.min.css" />
-
-
     <link rel="stylesheet" href="css/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
-
-
-
   </head>
 <body>
-    <header>
+
+
+  <a href="#navpart" class="acclink">Skip to navigation</a>
+  <a href="#mainpart" class="acclink">Skip to main content</a>
+
+
+    <header role="banner">
       
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" aria-label="Main Navigation">
           <div class="container-fluid">
 
               <!-- ICON -->
-            <a class="navbar-brand" href="#"><svg width="36" height="36" xmlns="http://www.w3.org/2000/svg">
+            <a class="navbar-brand" href="index.html" aria-label="Logo"><svg width="36" height="36" xmlns="http://www.w3.org/2000/svg">
               <circle class="icon" cx="17" cy="17" r="17" fill="#555" />
               <path class="iconpath" d="M 17 3 A 14 14 0 0 1 17 31" stroke="#fffeef" stroke-width="2" fill="none" />
               <circle class="iconpath" cx="17" cy="17" r="17" stroke="#747" stroke-width="2.5" fill="none" />
@@ -55,7 +55,7 @@
                     ABOUT
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">My ins</a></li>
+                    <li><a class="dropdown-item" href="https://www.instagram.com/huillip/?igsh=YnJpcGwycnByeGlm&utm_source=qr">My ins</a></li>
                     <li><a class="dropdown-item" href="about.html">About me</a></li>
                   </ul>
                 </li>
@@ -79,7 +79,7 @@
               fill="none"/>
         </svg>
       </div>
-        <main class="uk-animation-scale-up">
+        <main role="main" class="uk-animation-scale-up" itemprop="mainContentOfPage">
           <div class="pic animate__jello">
           <p>Thank you for</p><p>Contact As</p>
             </div>
@@ -92,7 +92,7 @@
 
 <div class="container uk-animation-scale-up">
 <div class="form-container form1 ">
-  <form action="/submit" method="post" class="row justify-content-center">
+  <form action="/submit" method="post" class="row justify-content-center" aria-label="Contact Form">
       <div class="mb-3">
           <label for="name" class="form-label">Name</label>
           <input type="text" class="form-control" id="name" name="name" placeholder="Tyoe your name" required>
@@ -112,72 +112,63 @@
 </div>
       <!-- ========footer footer footer=================-->
 
-<footer>
-
-  <div class="card text-center">
-      <div class="card-header">
-          
-            
-
-        <!-- add icons -->
-        <div class="footerbackground-image">
-          <div class="overlay">
-              
-              <svg class="icons" width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="0" y="0" width="50" height="50" fill="black"/>
-                  <rect x="2.5" y="2.5" width="45" height="45" fill="#d3d3d3"/>
-                  <rect x="10" y="16" width="30" height="17.5" rx="2.5" ry="2.5" fill="white" stroke="black" stroke-width="2"/>
-                  <polygon points="21,20 21,30 29,25" fill="black"/>
-              </svg>
-              
-              <svg class="icons" width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
-                  <rect x="0" y="0" width="50" height="50" fill="black" stroke="black" stroke-width="3"/>
-                  <rect x="0" y="0" width="50" height="50" fill="#d3d3d3" stroke="black" stroke-width="4" rx="0" ry="0"/>
-                  <rect x="6.25" y="6.25" width="37.5" height="37.5" rx="7.5" ry="7.5" fill="white" stroke="black" stroke-width="1.5"/>
-                  <circle cx="25" cy="25" r="10" fill="none" stroke="black" stroke-width="2"/>
-                  <circle cx="37.5" cy="12.5" r="2.5" fill="black"/>
-              </svg>
-              
-              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="#d3d3d3" stroke="black" stroke-width="1">
-                  <path d="M22.675 0h-21.35C.595 0 0 .595 0 1.326v21.348C0 23.405.595 24 1.326 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.657-4.788 1.325 0 2.465.099 2.797.143v3.243h-1.918c-1.504 0-1.796.715-1.796 1.763v2.31h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.325-.595 1.325-1.326V1.326C24 .595 23.405 0 22.675 0z"/>
-                </svg>
-          
-          <!-- links -->
-          <div class="footercontent">
-          <div class="contactlist">
-              <ul>
-                  <li><a href="notfind404.html">As a Person</a> </li>
-                  <li><a href="notfind404.html">As a Crew</a>   </li>
-                  <li><a href="notfind404.html">As a Company</a></li>
-                  <a href="contact.html">Contact Me</a>
-              </ul>
-              
-          </div>
-          <hr>
-          <div class="aboutlist">
-              <ul>
-                  <li><a href="notfind404.html">My Projects</a></li>
-                  <li><a href="notfind404.html">My Blog</a></li>
-                  <a href="about.html">About Me</a>
-              </ul>
-          </div>
-
-      </div>
-
-              <div class="card-footer text-body-primary">
-              Copyright &copy;Chuhong Feng Rights Reserved
+      <footer role="contentinfo">
+        <div class="card text-center">
+          <div class="card-header">
+              <!-- add icons -->
+                <div class="footerbackground-image">
+                <div class="overlay">
+                  <a href="https://www.youtube.com/">
+                    <svg class="icons" width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0" y="0" width="50" height="50" fill="black"/>
+                        <rect x="2.5" y="2.5" width="45" height="45" fill="#d3d3d3"/>
+                        <rect x="10" y="16" width="30" height="17.5" rx="2.5" ry="2.5" fill="white" stroke="black" stroke-width="2"/>
+                        <polygon points="21,20 21,30 29,25" fill="black"/>
+                    </svg>
+                  </a> 
+                  <a href="https://www.instagram.com/">
+                    <svg class="icons" width="50" height="50" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0" y="0" width="50" height="50" fill="black" stroke="black" stroke-width="3"/>
+                        <rect x="0" y="0" width="50" height="50" fill="#d3d3d3" stroke="black" stroke-width="4" rx="0" ry="0"/>
+                        <rect x="6.25" y="6.25" width="37.5" height="37.5" rx="7.5" ry="7.5" fill="white" stroke="black" stroke-width="1.5"/>
+                        <circle cx="25" cy="25" r="10" fill="none" stroke="black" stroke-width="2"/>
+                        <circle cx="37.5" cy="12.5" r="2.5" fill="black"/>
+                    </svg>
+                  </a>
+                  <a href="https://www.facebook.com/">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="#d3d3d3" stroke="black" stroke-width="1">
+                        <path d="M22.675 0h-21.35C.595 0 0 .595 0 1.326v21.348C0 23.405.595 24 1.326 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.657-4.788 1.325 0 2.465.099 2.797.143v3.243h-1.918c-1.504 0-1.796.715-1.796 1.763v2.31h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.325-.595 1.325-1.326V1.326C24 .595 23.405 0 22.675 0z"/>
+                      </svg>
+                  </a>
+                <!-- links -->
+                <div class="footercontent">
+                  <div class="contactlist">
+                    <ul>
+                        <li><a href="notfind404.html">As a Person</a> </li>
+                        <li><a href="notfind404.html">As a Crew</a>   </li>
+                        <li><a href="notfind404.html">As a Company</a></li>
+                        <li><a href="contact.html" class="btn bg-primary">Contact Me</a></li>
+                    </ul>  
+                  </div>
+                <hr>
+                  <div class="aboutlist">
+                    <ul>
+                        <li><a href="notfind404.html">My Projects</a></li>
+                        <li><a href="notfind404.html">My Blog</a></li>
+                        <li><a href="about.html" class="btn bg-primary">About Me</a></li>
+                    </ul>
+                  </div>
+                  </div>
+                    <div class="card-footer text-body-primary">
+                    Copyright &copy;Chuhong Feng Rights Reserved
+                    </div>
+                  </div>
               </div>
-            </div>
-          
-          
-          </div>
-      </div>
-      </div>
-      
-</footer>
+              </div>
+        </div>
+      </footer>
 
-
-        </main>
+</main>
 
 
 

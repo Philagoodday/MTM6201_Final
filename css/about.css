@@ -6,6 +6,10 @@
     --font-hepta-slab-bold: 'Hepta Slab', serif;
   } 
 
+body{
+    background-color: #fffeef;
+}
+
 .iconpath{
     stroke-width: 2;
     stroke-dasharray: 50;
@@ -24,20 +28,22 @@
     }
 }
 
-.custom-size{
-    height: 50px;
+
+
+
+
+.intro{
+    width: 95%;
+    margin: auto;
+
 }
 
-
-
-
-
-
-
-
-
-
-
+.portrait{
+    width: 20%;
+    height: 20%;
+    float: left;
+    padding: 0.7em;
+}
 
 .footerbackground-image {
     background-image: url("../images/montain.jpeg");
@@ -92,6 +98,10 @@
     transition: all 0.7s;
 }
 
+
+
+
+
 @media screen and (min-width: 990px) {
     h2{
         display: none;
@@ -102,6 +112,15 @@
         flex-direction: row;
     }
 
+    .curve{
+        
+    }
 
+    .portrait{
+        width: 30%;
+        height: 20%;
+        float: left;
+        padding: 0.7em;
+    }
 
 }

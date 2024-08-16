@@ -7,6 +7,6 @@
 
 4. Fourth, I encountered some difficulties when adding background colors, probably because I did not fully master the color control of bootstrap.
 
-## About the copyright of property: I used the CSS framework assets of cdn.jsdelivr.net and bootstrap. Google's font family. All pictures were taken by myself.
+## About the copyright of property: I used the CSS framework assets of cdn.jsdelivr.net and bootstrap. Google's font family. All pictures and icons were taken by myself, you can check those on my instagram (About-> My ins).
 
 ### In short, after practicing this final assignment, I have a better understanding of my web development skills. At the same time, I was also impressed by the logical operation of HTML and CSS. For me, I feel very satisfied. Finally, I would like to thank Professor Max for his teaching and dedication this semester. You are a very patient teacher. Thank you!
